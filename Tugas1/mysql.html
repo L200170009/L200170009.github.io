@@ -120,6 +120,18 @@
             <img class="img-fluid" src="img/portfolio/dml.jpg" alt="">
           </div>
         </div>
+		
+		<!-- Materi Item 4 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/fts.png" alt="">
+          </div>
+        </div>
 
 
       </div>
@@ -305,7 +317,7 @@ Alter dapat mengganti field menggunakan perintah “Change”, menambahkan field
                 <img class="img-fluid rounded mb-5" src="img/portfolio/ddl.jpg" alt="">
                 <!-- Portfolio Modal - Text -->
                 <p class="mb-5">
-		<strong>Apa itu DML?</strong><br>
+				<strong>Apa itu DML?</strong><br>
 								DML <i>Data Manipulation Language</i> adalah kumpulan perintah SQL yang berhubungan dengan pekerjaan mengolah data di dalam table 
 								dan tidak terkait dengan perubahan struktur dan definisi tipe data dari objek database seperti table, column, dan sebagainya.</p>
 								<strong>Perintah dalam DML</strong>
@@ -324,9 +336,9 @@ Alter dapat mengganti field menggunakan perintah “Change”, menambahkan field
 							</ol>
 							</div>
 							</div>
-						</div>
-					</div>
-		<button class="btn btn-primary" href="#" data-dismiss="modal">
+						</div>					
+				 
+				<button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Selesai
                 </button>
@@ -352,20 +364,223 @@ Alter dapat mengganti field menggunakan perintah “Change”, menambahkan field
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
+                <h3 class="text-secondary text-uppercase mb-0">
+				DATA DEFINITION LANGUAGE (DDL)
+				</h3><br>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/circus.png" alt="">
+                <img class="img-fluid rounded mb-5" src="img/portfolio/ddl.png" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                <p class="mb-5">
+				<strong>Apa itu DDL?</strong></p>DDL (<i>Data Definition Language</i>) adalah kumpulan perintah SQL yang digunakan untuk membuat (create), mengubah (alter) dan menghapus (drop) struktur dan definisi tipe data dari objek-objek database.</p>
+							<ol type='1'>
+									<li><b>CREATE</b><br>Perintah ini digunakan untuk membuat, termasuk di dalamnya membuat database baru, tabel baru view baru, dan kolom baru.
+										<br><table border='1'><tr><td> Syntax : CREATE DATABASE nama_database;</td></tr></table></li>
+									<li><b>ALTER</b><br>Perintah ALTER berfungsi untuk mengubah struktur tabel yang telah dibuat. Mencakup di dalamnya mengubah nama tabel, menambah kolom, mengubah kolom, menghapus kolom, dan memberikan atribut pada kolom.
+										<br><table border='1'><tr><td> Syntax : ALTER TABLE nama_tabel ADD nama_kolom datatype  </td></tr></table>
+									</li>
+									<li><b>DROP</b><br>Perintah DROP berfungsi untuk menghapus database atau tabel.
+										<br><table border='1'><tr><td> Syntax : DROP DATABASE nama_database; </td></tr></table>
+									</li>
+						</div>
+						</div>
+						</div>
+				<button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Selesai
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Portfolio Modal 4 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">FULLTEXT SEARCH</h2><br>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/fts.png" alt="">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">
+				Fulltext adalah fungsionalitas yang terdapat pada database (dalam hal ini database 
+							MySQL) yang memungkinkan user untuk melakukan pencarian tertentu dalam tabel dengan 
+							cara melakukan perbandingan string.</p><br>
+							<p>Sebelum mengenal lebih jauh mengenai Full-­‐Text Searching ada beberapa hal (prasyarat) 
+								yang perlu diketahui :</p>
+							<ul>
+								<li><i>Full-Text Searching</i> pada tulisan ini mengacu pada fungsionalitas yang terdapat pada 
+									database MySQL</li>
+								<li><i>Full-­‐text</i> index pada MySQL adalah index dengan tipe FULLTEXT; </li>
+								<li><i>Full-text index</i> hanya dapat digunakan pada database MyISAM dan dapat digunakan untuk kolom dengan tipe CHAR, VARCHAR, atau TEXT; </li>
+								<li><i>Full-text index </i>dapat dibuat saat proses pembuatan tabel dengan perintah “CREATE TABLE” atau saat perubahan struktur table yang sudah ada dengan menggunakan perintah “ALTER TABLE” atau “CREATE INDEX”. </li>
+							</ul>
+							<p>Berikut beberapa tipe penggunaan <i>Full-text Searching</i>:</p>
+							<ol type='1'>
+										<li><b>Natural Language</b><br>Berikut ini contoh penggunaan Full-Text Searching tipe Natural Language:
+										<br><p>Contoh 1:<br>
+											<b>SELECT * FROM article WHERE MATCH (title) AGAINST ('tutorial');</b><br>
+											Query diatas menghasilkan data pada field title yang mengandung kata "tutorial".<br>
+											<table border="1">
+												<tr>
+													<td align='center'>Id</td>
+													<td align='center'>Title</td>
+													<td align='center'>Body</td>
+												</tr>
+												<tr>
+													<td>1</td>
+													<td>PHP & Mysql : Tutorial Dasar</td>
+													<td>Pada tutorial kali ini,kita akan mencoba melakukan...</td>
+												</tr>
+											</table></p>
+											<p>Contoh 2:<br>
+												<b>SELECT * FROM article WHERE MATCH (title) AGAINST ('tutor');</b><br>
+												Perintah diatas tidak akan menghasilkan data, karena pencarian "tutor" tidak sama dengan pencarian "tutorial".<br>
+												</p>
+												<p>Contoh 3:<br>
+												Pencarian pada 2 field (title dan body) dapat dilakukan dengan menggunakan perintah:<br>
+												<b>SELECT * FROM article WHERE MATCH (title, body) AGAINST ('tutorial');</b><br>
+												Perintah diatas menghasilkan data sebagai berikut:<br>
+												<table border="1">
+													<tr>
+														<td align='center'>Id</td>
+														<td align='center'>Title</td>
+														<td align='center'>Body</td>
+													</tr>
+													<tr>
+														<td>1</td>
+														<td>PHP & Mysql : Tutorial Dasar</td>
+														<td>Pada tutorial kali ini,kita akan mencoba melakuka...</td>
+													</tr>
+													<tr>
+														<td>3</td>
+														<td>Mysql</td>
+														<td>Tutorial penggunaan database masa kini...</td>
+													</tr>
+													<tr>
+														<td>2</td>
+														<td>MySQL - Pengenalan</td>
+														<td>tutorial MySQL di situs ini memang buat kamu-kamu...</td>
+													</tr>
+												</table></p></li>
+									<li><b>MySQL Boolean full-text searches</b><br>Tipe Boolean mengijinkan penggunaan operator boolean pada keyword pencarian.
+										Berikut daftar operator yang dapat digunakan adalah:
+										<table border="1">
+											<tr align="center">
+												<td width="25%">[non operator]</td>
+												<td width="75%">Secara default memiliki arti "atau" / "or"</td>
+											</tr>
+											<tr align="center">
+												<td>+</td>
+												<td>Keyword harus terdapat pada semua hasil yang didapat</td>
+											</tr>
+											<tr align="center">
+												<td>-</td>
+												<td>Keyword tidak boleh ada pada hasil yang didapat</td>
+											</tr>
+											<tr align="center">
+												<td>></td>
+												<td>Keyword termasuk pada hasil yang didapat dengan urutan berdasar ranking secara <i>increase</i></td>
+											</tr>
+											<tr align="center">
+												<td><</td>
+												<td>Keyword termasuk pada hasil yang didapat dengan urutan berdasar ranking secara <i>decrease</i></td>
+											</tr>
+											<tr align="center">
+												<td>()</td>
+												<td>Digunakan untuk melakukan <i>grouping</i> / pengelompokan dan dapat menambahkan operator lain untuk meningkatkan relevansi hasil pencarian</td>
+											</tr>
+											<tr align="center">
+												<td>~</td>
+												<td>Berfungsi sebagai operator <i>negasi</i>, jika sebuah <i>keyword</i> diberikan tanda ~, mengakibatkan relevansi/score minus</td>
+											</tr>
+											<tr align="center">
+												<td>*</td>
+												<td>Merupakan operator <i>wildcard</i></td>
+											</tr>
+											<tr align="center">
+												<td>""</td>
+												<td>Digunakan pada awal dan akhir keyword yang terdiri dari dua kata atau lebih</td>
+											</tr>
+										</table>
+										<p>Contoh 1:<br>
+											<b>SELECT * FROM article WHERE MATCH (title, body) AGAINST ('+mysql -database'IN BOOLEAN MODE);</b><br>
+											Perintah diatas menghasilkan data sebagai berikut :<br>
+											<table border="1">
+												<tr>
+													<td align='center'>Id</td>
+													<td align='center'>Title</td>
+													<td align='center'>Body</td>
+												</tr>
+												<tr>
+													<td>2</td>
+													<td>How To Use MySQL Well</td>
+													<td>after you went through a...</td>
+												</tr>
+												<tr>
+													<td>3</td>
+													<td>Optimizing MySQL</td>
+													<td>In this tutorial we will show...</td>
+												</tr>
+												<tr>
+													<td>4</td>
+													<td>1001 MySQL Tricks</td>
+													<td>1. Never run mysqld as root. 2. ...</td>
+												</tr>
+												<tr>
+													<td>6</td>
+													<td>MySQL Security</td>
+													<td>When configured properly, MySQL ...</td>
+												</tr>
+											</table>
+											Hasil yang diperoleh harus mengandung kata mysql dan tidak boleh mengandung kata database pada field title dan body.<br>
+											</p>
+											<p>Contoh 2 :<br>
+												<b>SELECT * FROM article WHERE MATCH (title, body) AGAINST ('tutor*' IN BOOLEAN MODE);</b></br>
+												Perintah diatas menghasilkan data sebagai berikut :
+												<table border="1">
+													<tr>
+														<td align='center'>Id</td>
+														<td align='center'>Title</td>
+														<td align='center'>Body</td>
+													</tr>
+													<tr>
+														<td>1</td>
+														<td>MySQL Tutorial</td>
+														<td>DBMS stands for DataBase...</td>
+													</tr>
+													<tr>
+														<td>3</td>
+														<td>Optimizing MySQL</td>
+														<td>In this tutorial we will show...</td>
+													</tr>
+												</table>
+												Penambahan asterisk (*) pada awal atau akhir keyword berfungsi seperti perintah LIKE ‘tutor%’ .<br></p>
+
+											</li>
+									<li><b>Query Expansion</b><br>Berikut ini adalah cara membuat MySQL Query Expansion:
+										<br><b>SELECT column1, column2<br>
+											FROM table1<br>
+											WHERE MATCH(column1,column2) <br>
+											AGAINST('keyword',WITH QUERY EXPANSION);</b>
+									</li>
+						</div>
+						</div>
+						</div>
+	
+				<button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Selesai
                 </button>
@@ -395,4 +610,3 @@ Alter dapat mengganti field menggunakan perintah “Change”, menambahkan field
 </body>
 
 </html>
-
